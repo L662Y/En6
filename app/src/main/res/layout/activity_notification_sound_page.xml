@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/off_white"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Notification_sound_Page">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -63,7 +63,8 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentBottom="true"
                             android:layout_marginStart="70dp"
-                            android:layout_marginBottom="15dp" />
+                            android:layout_marginBottom="15dp"
+                            tools:ignore="TouchTargetSizeCheck" />
 
                         <RadioButton
                             android:layout_width="wrap_content"
@@ -71,7 +72,8 @@
                             android:layout_alignParentEnd="true"
                             android:layout_alignParentBottom="true"
                             android:layout_marginEnd="70dp"
-                            android:layout_marginBottom="15dp" />
+                            android:layout_marginBottom="15dp"
+                            tools:ignore="TouchTargetSizeCheck" />
 
 
                         <ImageView
@@ -126,7 +128,7 @@
                     android:checked="true"
                     android:thumb="@drawable/background_for_switch_2"
                     android:track="@drawable/background_for_switch"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -152,7 +154,7 @@
                     android:checked="true"
                     android:thumb="@drawable/background_for_switch_2"
                     android:track="@drawable/background_for_switch"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -178,7 +180,7 @@
                     android:layout_marginStart="12dp"
                     android:thumb="@drawable/background_for_switch_2"
                     android:track="@drawable/background_for_switch"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -204,7 +206,7 @@
                     android:layout_marginStart="12dp"
                     android:thumb="@drawable/background_for_switch_2"
                     android:track="@drawable/background_for_switch"
-                    tools:ignore="UseSwitchCompatOrMaterialXml" />
+                    tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
 
                 <TextView
                     android:layout_width="wrap_content"
